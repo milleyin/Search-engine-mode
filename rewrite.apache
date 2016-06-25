@@ -1,0 +1,16 @@
+#重写规则
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+#禁止某些文件被下载
+<FilesMatch ".(htaccess|htpasswd|ini|sh|db|tmp|dat)$"> 
+Order Allow,Deny 
+Deny from all 
+</FilesMatch>
+#禁止列出目录
+Options -Indexes 
+order deny,allow

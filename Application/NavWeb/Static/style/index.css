@@ -1,0 +1,12 @@
+.index_main{ width:720px; margin:90px auto;}
+.logo{ text-align:center;}
+.search_box{ width:582px; margin:0 auto; margin-top:20px;}
+.search_box .input{ border:3px #b8b8b8 solid;height:29px; padding-top:2px;padding-top:0px\9; height:31px\9; line-height:31px\9;padding-left:8px; width:481px; font-size:14px; float:left;outline: none}
+.search_box .sub_button{ float:left;border:3px #b8b8b8 solid; height:37px; padding-top:4px\9;text-align:center; background:#246e9c; color:#fff; font-size:14px; width:90px; margin-left:-3px; cursor:pointer; overflow:hidden;outline: none}
+.search_txt{ text-align:center; margin-top:30px;margin-bottom:78px; }
+.search_txt a{ margin-left:25px; font-family:"宋体"; font-size:14px; text-decoration:underline; color:#0000cc;}
+.search_txt a:hover{color:#0000cc;}
+.set_home{text-align:center;}
+.set_home a{text-decoration:underline; color:#0000cc;}
+.set_home a:hover{color:#0000cc;}
+.index_foot{ text-align:center; line-height:22px; margin-top:17px; color:#666;}
