@@ -10,7 +10,7 @@ $cgi->Main();
 class Maxfs_CGI {
 
     /**
-     * 所以说我喜欢这种风格。
+     * 所以说我喜欢这种风格。:-)
      */
     public function Main() {
         //初始化预处理过程
